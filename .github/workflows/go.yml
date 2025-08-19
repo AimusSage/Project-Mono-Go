@@ -9,6 +9,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: Projects/student-tutor-api
 
     steps:
       - name: Checkout repository
