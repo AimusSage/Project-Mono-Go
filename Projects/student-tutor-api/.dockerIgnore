@@ -1,0 +1,19 @@
+# Ignore Git
+.git
+.gitignore
+
+# Editor / OS files
+.vscode
+.idea
+.DS_Store
+
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Local builds
+/app
