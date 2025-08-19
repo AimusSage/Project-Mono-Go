@@ -8,11 +8,16 @@ This repo contains my Go learning projects:
 
 ## 🚀 How to run any project
 1. Navigate into the project folder:
-    ```bash
-    cd Projects/project-name
+```bash
+cd Projects/project-name
+```
 2. Run directly with Go:
-    go run .
+```bash
+go run .
+```
 
 (Optional) Build & run with Docker:
+```bash
 docker build -t project-name .
 docker run --rm -p 8080:8080 project-nam
+```
